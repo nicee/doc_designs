@@ -1,0 +1,2149 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "zznode",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFmi02Qj1Zvy/Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "pboss",
+			"ownedElements": [
+				{
+					"_type": "UMLObjectDiagram",
+					"_id": "AAAAAAFmi02Qj1ZwvOw=",
+					"_parent": {
+						"$ref": "AAAAAAFmi02Qj1Zvy/Y="
+					},
+					"name": "maven工程关系",
+					"visible": true,
+					"defaultDiagram": false,
+					"ownedViews": [
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi06cnFalEpU=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 432,
+							"top": 248,
+							"width": 239.0615234375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.zznode.springboot-base(type:pom)",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi1mPwFaq9tQ=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 512,
+							"top": 432,
+							"width": 85.8798828125,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-parent",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi1mwL1auOuE=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi06cnFalEpU="
+							},
+							"lineStyle": 1,
+							"points": "551:273;554:431"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi1rd31a4fmk=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 88,
+							"top": 64,
+							"width": 354.7412109375,
+							"height": 40,
+							"autoResize": false,
+							"text": "Maven中央仓库\nhttp://180.168.70.189:33904/nexus/content/repositories/nwtl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi1vfBVbOlgA=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi1rd31a4fmk="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi06cnFalEpU="
+							},
+							"lineStyle": 1,
+							"points": "530:247;298:104"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2CVdFbZJcY=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 88,
+							"top": 120,
+							"width": 169,
+							"height": 55,
+							"autoResize": false,
+							"text": "插件\nproperties-maven-plugin\nspring-boot-maven-plugin",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2FD4FbmqmE=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi06cnFalEpU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi2CVdFbZJcY="
+							},
+							"lineStyle": 1,
+							"points": "257:172;507:247"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2IUK1bwdkc=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 88,
+							"top": 216,
+							"width": 249,
+							"height": 145,
+							"autoResize": false,
+							"text": "依赖管理\nspring-boot-dependencies：2.0.5\nspring-boot-starter-web：2.0.5\nspring-boot-starter-log4j2：2.0.5\ncamel-spring-boot-dependencies：2.22.1\nflowable-spring-boot-starter：6.3.1\nojdbc6：11.2.0.1.0\ncxf-spring-boot-starter-jaxws：3.2.6\ncommons-io：2.6",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2RRSFcGrK4=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi06cnFalEpU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi2IUK1bwdkc="
+							},
+							"lineStyle": 1,
+							"points": "337:278;431:270"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2a4F1cf9qU=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 88,
+							"top": 384,
+							"width": 155.234375,
+							"height": 115,
+							"autoResize": false,
+							"text": "依赖\nspring-boot-starter\nspring-boot-starter-log4j2\ncamel-spring-boot-starter\ncamel-stream-starter\nspring-boot-starter-test\ncamel-test-spring",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2fCuFcuIUY=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi2a4F1cf9qU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"lineStyle": 1,
+							"points": "511:444;243:442"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2fuqVcyKOc=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 256,
+							"top": 513,
+							"width": 105.3671875,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-common",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2gfx1c3jBw=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 344,
+							"top": 552,
+							"width": 109.72802734375,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-integration",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2hR8Vc82kw=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 480,
+							"top": 576,
+							"width": 72.13720703125,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-flow",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2jFL1dKBXc=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 768,
+							"top": 512,
+							"width": 81.5380859375,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-home",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2jctFdRA6I=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 600,
+							"top": 576,
+							"width": 101.0380859375,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-home-rpt",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2ko11dbmLA=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 712,
+							"top": 552,
+							"width": 67.80810546875,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-org",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2lDkVdfzX8=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 784,
+							"top": 440,
+							"width": 87.30810546875,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-org-rpt",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi2lX21djaPw=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 760,
+							"top": 352,
+							"width": 80.078125,
+							"height": 25,
+							"autoResize": false,
+							"text": "pboss-mock",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2lqcldnn18=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi2fuqVcyKOc="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"lineStyle": 1,
+							"points": "515:457;347:512"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2l0cldq8GE=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi2gfx1c3jBw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"lineStyle": 1,
+							"points": "537:457;415:551"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2l+GVdt0cM=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi2hR8Vc82kw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"lineStyle": 1,
+							"points": "550:457;519:575"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2mLi1dwH8o=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi2jctFdRA6I="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"lineStyle": 1,
+							"points": "563:457;641:575"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2mUr1dzM8Y=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi2jFL1dKBXc="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"lineStyle": 1,
+							"points": "595:457;767:511"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2meAFd2t4M=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi2ko11dbmLA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"lineStyle": 1,
+							"points": "575:457;724:551"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2pQFFeCThk=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi2lDkVdfzX8="
+							},
+							"lineStyle": 1,
+							"points": "783:451;598:445"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi2pbL1eFk/w=",
+							"_parent": {
+								"$ref": "AAAAAAFmi02Qj1ZwvOw="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi1mPwFaq9tQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi2lX21djaPw="
+							},
+							"lineStyle": 1,
+							"points": "759:377;594:431"
+						}
+					]
+				}
+			],
+			"visibility": "public"
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFmi4BahVeWmvQ=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "ngwlanfix",
+			"ownedElements": [
+				{
+					"_type": "UMLObjectDiagram",
+					"_id": "AAAAAAFmi4BahleXcck=",
+					"_parent": {
+						"$ref": "AAAAAAFmi4BahVeWmvQ="
+					},
+					"name": "maven工程关系",
+					"visible": true,
+					"defaultDiagram": false,
+					"ownedViews": [
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6Akv1efwsU=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 392,
+							"top": 216,
+							"width": 142.20263671875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.itframe-boot",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6CBTVem9wo=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 376,
+							"top": 152,
+							"width": 174.7216796875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.itframe-boot-deps",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi6DixleusOc=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi6Akv1efwsU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6CBTVem9wo="
+							},
+							"lineStyle": 1,
+							"points": "462:177;462:215"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6JTPFexWcg=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 384,
+							"top": 376,
+							"width": 168.22802734375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-parent",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi6KvJFe4sHo=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi6Akv1efwsU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "467:375;462:241"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6MMNle74Mo=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 88,
+							"top": 336,
+							"width": 84.43896484375,
+							"height": 70,
+							"autoResize": false,
+							"text": "配置环境\ndevelopment\nproduction\ntest",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi6OB41fBUmE=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi6MMNle74Mo="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "383:384;172:372"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6QI4lfMkXs=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 88,
+							"top": 416,
+							"width": 268.62890625,
+							"height": 55,
+							"autoResize": false,
+							"text": "依赖定义\ncom.cmos.ngwlanfix-*：1.0.0-SNAPSPOT\ncom.cmos.itframe-boot-*：1.0.2-SNAPSPOT",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi6SivVfTXRE=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi6QI4lfMkXs="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "409:401;346:415"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6aE2bXXJbE=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 88,
+							"top": 264,
+							"width": 354.7412109375,
+							"height": 40,
+							"autoResize": false,
+							"text": "Maven中央仓库\nhttp://180.168.70.189:33904/nexus/content/repositories/nwtl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi6ab+1feKWE=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi6aE2bXXJbE="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "442:375;305:304"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6gi3lfmJrQ=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 144,
+							"width": 166.787109375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-beans",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6wBgFfxU4Q=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 168,
+							"width": 154.4853515625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-utils",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6yJH1f3mNI=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 216,
+							"width": 236.8525390625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-business-common",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6zbaFf/7sw=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 296,
+							"width": 227.43896484375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-workflow-service",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi60KglgGb+A=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 280,
+							"width": 207.95166015625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-workflow-dao",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi61OIFgM0yY=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 360,
+							"width": 265.02978515625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-comprehensive-service",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi63nl1gSZ6o=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 344,
+							"width": 245.54248046875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-comprehensive-dao",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi64W+1gXWdM=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 408,
+							"width": 220.9833984375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-open-order-dao",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi65TYFgc1G0=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 424,
+							"width": 240.470703125,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-open-order-service",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi660l1gj3Mw=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 472,
+							"width": 244.0888671875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-complain-order-dao",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi67iJ1gosNM=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 488,
+							"width": 263.576171875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-complain-order-service",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi69J5lgvAjs=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 552,
+							"width": 232.5107421875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-cpn-order-service",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi69xhlg0Lqg=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 568,
+							"width": 213.0234375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-cpn-order-dao",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6+9OVg6EyY=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 600,
+							"width": 202.17529296875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-security-dao",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi6/wflhAiAU=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 616,
+							"width": 221.66259765625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-security-service",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7Awp1hHBdI=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 680,
+							"width": 193.49169921875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-gis-service",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7BNvlhLv1U=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 664,
+							"width": 174.00439453125,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-gis-dao",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7B+WlhQ+t0=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 728,
+							"width": 191.34619140625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-report-dao",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7C1bVhVEa8=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 744,
+							"width": 210.83349609375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-report-service",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7Lov7XYHnM=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 312,
+							"width": 255.603515625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-workflow-service-impl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7MxvLXZn/Q=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 376,
+							"width": 293.1943359375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-comprehensive-service-impl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7O5orXaIO8=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 440,
+							"width": 268.63525390625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-open-order-service-impl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7P5/bXbKXg=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 504,
+							"width": 291.74072265625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-complain-order-service-impl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7RCYbXcOs4=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 536,
+							"width": 260.67529296875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-cpn-order-service-impl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7W0erXd3mQ=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 632,
+							"width": 249.8271484375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-security-service-impl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7Y927Xe2EM=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 760,
+							"width": 238.998046875,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-report-service-impl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7Z1G7XfS5Q=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 696,
+							"width": 221.65625,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-gis-service-impl",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7dFi7XgfNI=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 792,
+							"width": 166.787109375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-timer",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7hgS1i9VhM=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 808,
+							"top": 144,
+							"width": 194.919921875,
+							"height": 25,
+							"autoResize": false,
+							"text": "其他模块中的各个bean定义集合",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7ljnVjCB/0=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 808,
+							"top": 168,
+							"width": 101,
+							"height": 25,
+							"autoResize": false,
+							"text": "各种工具类模块",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7sMwFjJgjI=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 192,
+							"width": 155.21533203125,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-web",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi7tNMFjOiX0=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 808,
+							"top": 192,
+							"width": 147.2490234375,
+							"height": 25,
+							"autoResize": false,
+							"text": "web层，提供restful接口",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi76TiVjTOGs=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 888,
+							"top": 280,
+							"width": 75,
+							"height": 25,
+							"autoResize": false,
+							"text": "工作流服务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi765cljYb6Q=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 920,
+							"top": 352,
+							"width": 88,
+							"height": 25,
+							"autoResize": false,
+							"text": "综合支持业务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8PbfFjdksg=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 904,
+							"top": 416,
+							"width": 75,
+							"height": 25,
+							"autoResize": false,
+							"text": "装机单业务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8QT7Fjho9U=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 912,
+							"top": 472,
+							"width": 75,
+							"height": 25,
+							"autoResize": false,
+							"text": "投诉单业务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8RthVjnc7A=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 896,
+							"top": 552,
+							"width": 114,
+							"height": 25,
+							"autoResize": false,
+							"text": "驻地网抢修单业务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8S9DVjsxzw=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 888,
+							"top": 608,
+							"width": 88,
+							"height": 25,
+							"autoResize": false,
+							"text": "安全管理业务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8UMTVjxVfY=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 872,
+							"top": 672,
+							"width": 84.39453125,
+							"height": 25,
+							"autoResize": false,
+							"text": "GIS应用业务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8VNBlj2sow=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 880,
+							"top": 736,
+							"width": 62,
+							"height": 25,
+							"autoResize": false,
+							"text": "报表业务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8XibFj9EGU=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 824,
+							"top": 792,
+							"width": 114,
+							"height": 25,
+							"autoResize": false,
+							"text": "报表定时任务工程",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8a5rVkFhbo=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 632,
+							"top": 240,
+							"width": 202.9052734375,
+							"height": 25,
+							"autoResize": false,
+							"text": "com.cmos.ngwlanfix-internet-web",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8dVC1kLuGU=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 848,
+							"top": 240,
+							"width": 88,
+							"height": 25,
+							"autoResize": false,
+							"text": "互联网域服务",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFmi8ea7VkQhNQ=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"left": 880,
+							"top": 216,
+							"width": 88,
+							"height": 25,
+							"autoResize": false,
+							"text": "公共业务模块",
+							"wordWrap": true
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi8haZ1kYS2w=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi7sMwFjJgjI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "484:375;692:217"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi8iv91kcSsc=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi61OIFgM0yY="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "552:383;631:379"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi8jDBVkfLGc=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi7Lov7XYHnM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "526:375;700:337"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi8j8QVklreU=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi64W+1gXWdM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "552:398;631:407"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi8kjjFkrQ2c=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi660l1gj3Mw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "506:401;714:471"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi8lEIlkwUWQ=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi69J5lgvAjs="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "488:401;726:551"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi8lY2Fkz6mU=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi7dFi7XgfNI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "475:401;706:791"
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAFmi8lovlk2YSk=",
+							"_parent": {
+								"$ref": "AAAAAAFmi4BahleXcck="
+							},
+							"visible": true,
+							"enabled": true,
+							"lineColor": "#000000",
+							"fillColor": "#ffffff",
+							"fontColor": "#000000",
+							"font": "Arial;13;0",
+							"showShadow": true,
+							"containerChangeable": false,
+							"containerExtending": false,
+							"head": {
+								"$ref": "AAAAAAFmi7BNvlhLv1U="
+							},
+							"tail": {
+								"$ref": "AAAAAAFmi6JTPFexWcg="
+							},
+							"lineStyle": 1,
+							"points": "478:401;707:663"
+						}
+					]
+				}
+			],
+			"visibility": "public"
+		}
+	]
+}
